@@ -1,0 +1,321 @@
+{
+	"song": {
+		"events": [
+			[
+				0,
+				[
+					[
+						"Change Bop Speed",
+						"4",
+						""
+					]
+				]
+			],
+			[
+				12800,
+				[
+					[
+						"Change Bop Speed",
+						"2",
+						""
+					]
+				]
+			],
+			[
+				19200,
+				[
+					[
+						"Change Bop Speed",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				38400,
+				[
+					[
+						"Change Bop Speed",
+						"2",
+						""
+					]
+				]
+			],
+			[
+				51200,
+				[
+					[
+						"Change Bop Speed",
+						"4",
+						""
+					]
+				]
+			],
+			[
+				64000,
+				[
+					[
+						"Change Bop Speed",
+						"2",
+						""
+					]
+				]
+			],
+			[
+				73600,
+				[
+					[
+						"Change Bop Speed",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				75200,
+				[
+					[
+						"Change Bop Speed",
+						"0.5",
+						""
+					]
+				]
+			],
+			[
+				76800,
+				[
+					[
+						"YouTube Arrival",
+						"",
+						""
+					],
+					[
+						"Change Bop Speed",
+						"999",
+						""
+					],
+					[
+						"Change Character",
+						"BF",
+						"angry-para"
+					],
+					[
+						"Play Animation",
+						"look",
+						"BF"
+					]
+				]
+			],
+			[
+				78400,
+				[
+					[
+						"Change Bop Speed",
+						"0.5",
+						""
+					]
+				]
+			],
+			[
+				79200,
+				[
+					[
+						"Change Bop Speed",
+						"0.25",
+						""
+					]
+				]
+			],
+			[
+				80000,
+				[
+					[
+						"Remove Black Screen",
+						"",
+						""
+					],
+					[
+						"Change Bop Speed",
+						"1",
+						""
+					],
+					[
+						"Change Character",
+						"BF",
+						"para-angry"
+					],
+					[
+						"",
+						"BF",
+						"bf"
+					]
+				]
+			],
+			[
+				86000,
+				[
+					[
+						"Change Character",
+						"BF",
+						"para-angry"
+					]
+				]
+			],
+			[
+				92800,
+				[
+					[
+						"Change Bop Speed",
+						"0.5",
+						""
+					]
+				]
+			],
+			[
+				95600,
+				[
+					[
+						"Change Character",
+						"BF",
+						"bf"
+					]
+				]
+			],
+			[
+				99200,
+				[
+					[
+						"Change Bop Speed",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				100000,
+				[
+					[
+						"Change Character",
+						"BF",
+						"para-angry"
+					]
+				]
+			],
+			[
+				101600,
+				[
+					[
+						"Change Character",
+						"BF",
+						"bf"
+					]
+				]
+			],
+			[
+				104000,
+				[
+					[
+						"Change Character",
+						"BF",
+						"para-angry"
+					]
+				]
+			],
+			[
+				105600,
+				[
+					[
+						"Change Bop Speed",
+						"4",
+						""
+					]
+				]
+			],
+			[
+				112000,
+				[
+					[
+						"Change Bop Speed",
+						"2",
+						""
+					]
+				]
+			],
+			[
+				118400,
+				[
+					[
+						"Change Bop Speed",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				120000,
+				[
+					[
+						"Change Character",
+						"BF",
+						"bf"
+					]
+				]
+			],
+			[
+				131200,
+				[
+					[
+						"Change Bop Speed",
+						"0.5",
+						""
+					]
+				]
+			],
+			[
+				132000,
+				[
+					[
+						"Change Bop Speed",
+						"0.25",
+						""
+					]
+				]
+			],
+			[
+				132800,
+				[
+					[
+						"Change Bop Speed",
+						"999",
+						""
+					]
+				]
+			],
+			[
+				133200,
+				[
+					[
+						"Add Camera Zoom",
+						"1",
+						"1"
+					],
+					[
+						"End",
+						"",
+						""
+					]
+				]
+			],
+			[
+				137600,
+				[
+					[
+						"ParashockX Outro",
+						"",
+						""
+					]
+				]
+			]
+		]
+	}
+}

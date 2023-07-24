@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="gameOver.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="gameOver0000" x="0" y="0" width="313" height="196"/>
+	<SubTexture name="gameOver0001" x="0" y="196" width="311" height="195" frameX="-2" frameY="-1" frameWidth="313" frameHeight="196"/>
+</TextureAtlas>

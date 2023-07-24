@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+
+	<app title="Friday Night Funkin': VS ParashockX" file="PsychEngine" packageName="com.shadowmario.psychengine" package="com.shadowmario.psychengine" main="Main" version="0.2.8" company="ShadowMario" />
+
+
+	<!-- NOTE TO SELF: DISABLE THIS IF ISSUES ARE FOUND -->
+	<haxedef name="LINC_LUA_RELATIVE_DYNAMIC_LIB"/> <!-- stable luas PUT AFTER FIRST LINE WITH APP NAME AND ETC -->
+
+	<app preloader="flixel.system.FlxPreloader" />
+
+	<window width="1280" height="720" fps="" background="#000000" hardware="true" vsync="false" />
+
+	<window if="html5" resizable="true" />
+	<window if="desktop" orientation="landscape" fullscreen="false" resizable="false"/>
+
+	<set name="BUILD_DIR" value="export/debug" if="debug" />
+	<set name="BUILD_DIR" value="export/release" unless="debug" />
+	<set name="BUILD_DIR" value="export/32bit" if="32bits" />
+
+	<classpath name="source" />
+	
+	<define name="LUA_ALLOWED" if="desktop" unless="hl"/>
+	<define name="CRASH_HANDLER" if="desktop release" />
+
+	<assets path="assets/preload" rename="assets" embed="true" exclude="*.ogg" if="web"/>
+	<assets path="assets/preload" rename="assets" embed="true" exclude="*.mp3"  unless="web"/>
+
+	<!-- <define name="PRELOAD_ALL" /> -->
+	<define name="PRELOAD_ALL" unless="web" />
+	<define name="NO_PRELOAD_ALL" unless="PRELOAD_ALL"/>
+	
+	<library name="videos"        preload="true" />
+	<section if="PRELOAD_ALL">
+		<library name="songs"         preload="true" />
+		<library name="shared"        preload="true" />
+	</section>
+	
+	<section if="NO_PRELOAD_ALL">
+		<library name="songs"         preload="false" />
+		<library name="shared"        preload="false" />
+	</section>
+	
+	<assets path="assets/videos"        library="videos"        if="VIDEOS_ALLOWED"/>
+	<assets path="assets/songs"         library="songs"         exclude="*.ogg" if="web"/>
+	<assets path="assets/songs"         library="songs"         exclude="*.mp3" unless="web"/>
+	<assets path="assets/shared"        library="shared"        exclude="*.ogg" if="web"/>
+	<assets path="assets/shared"        library="shared"        exclude="*.mp3" unless="web"/>
+
+	<assets path="assets/fonts" embed="true"/>
+
+	<haxelib name="flixel" />
+	<haxedev set='webgl' />
+
+	<!--In case you want to use the addons package-->
+	<haxelib name="flixel-addons" />
+	<haxelib name="hscript" />
+	<haxelib name="discord_rpc" if="desktop" unless="hl"/>
+
+	<!--In case you want to use the ui package-->
+	<haxelib name="flixel-ui" />
+	<haxelib name="linc_luajit" if="LUA_ALLOWED"/>
+	<haxelib name="hxCodec" if="VIDEOS_ALLOWED"/>
+	<haxelib name="hxcpp-debug-server" if="debug"/>
+
+	<haxedef name="FLX_NO_NATIVE_CURSOR" />
+	<haxedef name="FLX_NO_TOUCH"/>
+	<haxedef name="FLX_NO_FOCUS_LOST_SCREEN" />
+	<!--haxedef name="HXCPP_GC_BIG_BLOCKS"-->
+	<haxedef name="HXC_DEBUG_TRACE" if="debug" />
+	<haxedef name="FLX_NO_DEBUG" unless="debug" />
+	<haxedef name="NAPE_RELEASE_BUILD" unless="debug" />
+	<haxedef name="HXCPP_CHECK_POINTER" if="CRASH_HANDLER" />
+	<haxedef name="HXCPP_STACK_LINE" if="CRASH_HANDLER" />
+	
+	<icon path="art/icon16.png" size='16'/>
+	<icon path="art/icon32.png" size='32'/>
+	<icon path="art/icon64.png" size='64'/>
+	<icon path="art/iconOG.png" />
+</project>

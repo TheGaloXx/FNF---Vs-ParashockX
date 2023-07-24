@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="blue.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="blue0000" x="0" y="0" width="194" height="263" frameX="-1" frameY="-9" frameWidth="195" frameHeight="273"/>
+	<SubTexture name="blue0001" x="0" y="0" width="194" height="263" frameX="-1" frameY="-9" frameWidth="195" frameHeight="273"/>
+	<SubTexture name="blue0002" x="194" y="0" width="191" height="266" frameX="-2" frameY="-7" frameWidth="195" frameHeight="273"/>
+	<SubTexture name="blue0003" x="194" y="0" width="191" height="266" frameX="-2" frameY="-7" frameWidth="195" frameHeight="273"/>
+	<SubTexture name="blue0004" x="385" y="0" width="187" height="271" frameX="-4" frameY="-2" frameWidth="195" frameHeight="273"/>
+	<SubTexture name="blue0005" x="385" y="0" width="187" height="271" frameX="-4" frameY="-2" frameWidth="195" frameHeight="273"/>
+	<SubTexture name="blue0006" x="572" y="0" width="187" height="272" frameX="-4" frameY="-1" frameWidth="195" frameHeight="273"/>
+	<SubTexture name="blue0007" x="572" y="0" width="187" height="272" frameX="-4" frameY="-1" frameWidth="195" frameHeight="273"/>
+	<SubTexture name="blue0008" x="759" y="0" width="187" height="273" frameX="-4" frameY="0" frameWidth="195" frameHeight="273"/>
+	<SubTexture name="blue0009" x="759" y="0" width="187" height="273" frameX="-4" frameY="0" frameWidth="195" frameHeight="273"/>
+	<SubTexture name="blue0010" x="759" y="0" width="187" height="273" frameX="-4" frameY="0" frameWidth="195" frameHeight="273"/>
+	<SubTexture name="blue0011" x="759" y="0" width="187" height="273" frameX="-4" frameY="0" frameWidth="195" frameHeight="273"/>
+	<SubTexture name="blue0012" x="759" y="0" width="187" height="273" frameX="-4" frameY="0" frameWidth="195" frameHeight="273"/>
+	<SubTexture name="blue0013" x="759" y="0" width="187" height="273" frameX="-4" frameY="0" frameWidth="195" frameHeight="273"/>
+	<SubTexture name="blue0014" x="0" y="273" width="186" height="273" frameX="-4" frameY="0" frameWidth="195" frameHeight="273"/>
+	<SubTexture name="blue0015" x="186" y="273" width="184" height="273" frameX="0" frameY="0" frameWidth="195" frameHeight="273"/>
+	<SubTexture name="blue0016" x="186" y="273" width="184" height="273" frameX="0" frameY="0" frameWidth="195" frameHeight="273"/>
+	<SubTexture name="blue0017" x="370" y="273" width="183" height="273" frameX="0" frameY="0" frameWidth="195" frameHeight="273"/>
+	<SubTexture name="blue0018" x="370" y="273" width="183" height="273" frameX="0" frameY="0" frameWidth="195" frameHeight="273"/>
+</TextureAtlas>
